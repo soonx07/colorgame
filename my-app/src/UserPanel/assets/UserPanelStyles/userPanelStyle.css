@@ -1,0 +1,98 @@
+
+
+
+.gradient-top-left{
+  background: rgb(196,147,63);
+background: linear-gradient(156deg, rgba(196,147,63,1) 19%, rgba(250,229,159,1) 45%);
+}
+
+.btn-gold-ltr{
+  background: rgb(196,147,63);
+background: linear-gradient(270deg, rgba(196,147,63,1) 19%, rgba(250,229,159,1) 45%);
+}
+
+.gradient-top-btm{
+  background: rgb(196,147,63);
+background: linear-gradient(0deg, rgba(196,147,63,1) 22%, rgba(250,229,159,1) 72%);
+}
+.gradient-btm-top{
+  background: rgb(196,147,63);
+background: linear-gradient(0deg,rgba(250,229,159,1)  22%,  rgba(196,147,63,1)72%);
+}
+
+.theme1{
+  color : rgb(196,147,63);
+}
+
+
+/* for Notification message change*/
+.transition-opacity {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+/* Add this to your CSS file or style tag */
+.modal-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.modal-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.modal-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.modal-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.backdrop-enter {
+  opacity: 0;
+}
+
+.backdrop-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.backdrop-exit {
+  opacity: 1;
+}
+
+.backdrop-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animation-slide-in {
+  animation: slideIn 0.3s ease-out forwards;
+}
+

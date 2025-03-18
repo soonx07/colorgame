@@ -1,0 +1,10 @@
+.vipGradient{
+    background: url(/assets/png/bg1-7ff97a99.png) no-repeat center, -webkit-linear-gradient(332.71deg, #a6b7d0 21.85%, #889ebe 67.02%);
+    background: url(/assets/png/bg1-7ff97a99.png) no-repeat center, linear-gradient(117.29deg, #a6b7d0 21.85%, #889ebe 67.02%);
+    box-shadow: 0 .02667rem #7991b6, inset 0 .02667rem #bdcadc;
+}
+
+.progressGradient{
+    box-shadow: 0 .01333rem #b1c4e1, inset 0 .05333rem .05333rem #607596;
+    background: rgb(116, 138, 170);
+}

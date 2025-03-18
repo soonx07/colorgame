@@ -1,0 +1,30 @@
+/* Custom transition for the modal */
+.modal-enter {
+  transform: translateY(100%);
+  opacity: 0;
+}
+.modal-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+.modal-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+.modal-exit-active {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+.slick-slide {
+  border-top: 0;
+  border-bottom: 0;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.slick-center {
+  border-top: 2px solid #3498db; /* Replace with your desired color */
+  border-bottom: 2px solid #3498db; /* Replace with your desired color */
+}

@@ -1,0 +1,74 @@
+
+
+/*winner page */
+
+.swiper-slide{
+    margin: 0 !important;
+  }
+  
+  .crown img{
+        width: 35px;
+        position: absolute;
+          top: -10px;
+  left: 20px;
+  }
+  .place img{
+        width: 55px;
+  position: absolute;
+  }
+  
+  .w-profile-container{
+    bottom: 20px;
+        display: flex;
+  justify-content: space-around;
+  width: 100%;
+  /* padding: 0 10px; */
+  left: 0;
+  
+  }
+  .wrap-filter-swiper{
+        margin: 60px 10px;
+  }
+  
+  .silver , .bronze{
+    position: relative;
+  /* top: 30px; */
+  }
+  .golden{
+    position: relative;
+  bottom: 25px;
+  }
+  .winner-container  {
+    padding-bottom: 70px;
+  }
+  
+  
+  .place img {
+    top: 40%;
+    left: 20%;
+  }
+  .box-account.style-1 a , .place a , .crown a{
+  display: flex;
+  justify-content: center;
+  }
+  
+  
+  .box-account.style-1 .winner-pp {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  }
+  
+  .winner-badge{
+  width: 2.66667rem;
+  height: 0.66667rem;
+  padding: 0.17333rem 0.58667rem;
+  
+  line-height: .32rem;
+  text-align: center;
+  border-radius: 9rem;
+  background: -webkit-linear-gradient(left,#00461a 0%,#043a21 100%);
+  background: linear-gradient(90deg,#00461a 0%,#043a21 100%);
+  color: #fff;
+  font-size: 9px;
+  }
